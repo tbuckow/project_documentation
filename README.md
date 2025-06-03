@@ -43,6 +43,19 @@ This project was developed with GitHub Copilot assistance. Prompts included:
 - "Implement logging for all lend and return actions to logs.txt."
 - "Write modular xUnit test classes for BookService, MemberService, BorrowService, DataSeeder, and integration tests."
 
+## Evidence of GitHub Copilot Usage
+
+- Während der Entwicklung wurden zahlreiche Prompts an Copilot gestellt, z.B.:
+  - "Build a web-based library management system using ASP.NET Core MVC and Entity Framework Core with SQLite."
+  - "Implement logging for all lend and return actions to logs.txt."
+  - "Write modular xUnit test classes for BookService, MemberService, BorrowService, DataSeeder, and integration tests."
+- Copilot wurde für Code-Vervollständigungen, Architekturvorschläge und Dokumentationsentwürfe genutzt.
+- Hinweise auf Copilot-Nutzung sind in den Commit-Nachrichten und der Projektstruktur dokumentiert.
+
+## Reflection: Copilot Experience
+
+GitHub Copilot hat die Entwicklung deutlich beschleunigt, indem es Boilerplate-Code, Testfälle und Dokumentationsvorlagen vorgeschlagen hat. Besonders hilfreich war Copilot bei der Strukturierung von Services und beim Erstellen von Beispiel-APIs. Herausforderungen gab es bei komplexeren Logiken und der Anpassung von generiertem Code an projektspezifische Anforderungen – hier war manuelles Nacharbeiten nötig. Insgesamt hat Copilot die Produktivität gesteigert und die Codequalität durch Vorschläge zu Best Practices verbessert.
+
 ##  Testing
 
 - Modular xUnit tests

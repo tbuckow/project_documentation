@@ -2,22 +2,22 @@
 
 ```mermaid
 graph TD
-    A[Frontend (ASP.NET Core MVC)]
-    B[Backend (Controllers, Services, Logging)]
-    C[Entity Framework Core]
-    D[SQLite Database]
-    E[JSON File Storage]
-    F[XML File Storage]
-    G[Flat File Storage]
-    H[Logs (logs.txt)]
+    Frontend
+    Backend
+    EFCore
+    SQLite
+    JSON
+    XML
+    FlatFile
+    Logs
 
-    A --> B
-    B --> C
-    C --> D
-    B --> E
-    B --> F
-    B --> G
-    B --> H
+    Frontend --> Backend
+    Backend --> EFCore
+    EFCore --> SQLite
+    Backend --> JSON
+    Backend --> XML
+    Backend --> FlatFile
+    Backend --> Logs
 ```
 
 ## Komponentenbeschreibung

@@ -1,39 +1,39 @@
-# Beitragende
+# Contribution Guidelines
 
-## Wie du beitragen kannst
+## How to Contribute
 
-1. **Forke das Repository**
-2. **Erstelle einen neuen Branch** für deine Änderung:
+1. **Fork the repository**
+2. **Create a new branch** for your change:
    ```powershell
-   git checkout -b feature/dein-feature-name
+   git checkout -b feature/your-feature-name
    ```
-3. **Nimm deine Änderungen vor**
-4. **Committe deine Änderungen**:
+3. **Make your changes**
+4. **Commit your changes**:
    ```powershell
    git add .
-   git commit -m "Beschreibe deine Änderung"
+   git commit -m "Describe your change"
    ```
-5. **Pushe den Branch zu deinem Fork**:
+5. **Push the branch to your fork**:
    ```powershell
-   git push origin feature/dein-feature-name
+   git push origin feature/your-feature-name
    ```
-6. **Erstelle einen Pull Request** auf GitHub gegen den `main`-Branch
+6. **Create a Pull Request** on GitHub targeting the `main` branch
 
-## GitHub Workflow Tipps
+## GitHub Workflow Tips
 
-- Nutze beschreibende Branch-Namen (z.B. `feature/login`, `bugfix/validation-error`)
-- Schreibe klare und prägnante Commit-Nachrichten
-- Führe vor dem PR alle Tests lokal aus (`dotnet test`)
-- Halte deinen Branch aktuell mit `main` (z.B. durch `git merge main`)
-- Beschreibe im Pull Request, was du geändert hast und warum
-- Kleine, thematisch fokussierte Pull Requests sind leichter zu reviewen
+- Use descriptive branch names (e.g., `feature/login`, `bugfix/validation-error`)
+- Write clear and concise commit messages
+- Run all tests locally before submitting a PR (`dotnet test`)
+- Keep your branch up to date with `main` (e.g., via `git merge main`)
+- Describe what you changed and why in the Pull Request
+- Small, focused Pull Requests are easier to review
 
 ## Code Style
 
-- Halte dich an die bestehenden Coding-Guidelines und Formatierungen
-- Dokumentiere neue oder geänderte Funktionen ausreichend
+- Follow existing coding guidelines and formatting
+- Document new or changed functions adequately
 
-## Hinweise
+## Notes
 
-- Respektiere die Code of Conduct und die Community-Richtlinien
-- Bei Fragen oder Problemen: Erstelle ein Issue oder diskutiere im Pull Request
+- Respect the Code of Conduct and community guidelines
+- For questions or issues: open an issue or discuss in the Pull Request

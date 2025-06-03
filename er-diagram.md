@@ -1,6 +1,6 @@
-# ER-Diagramm
+# ER-Diagram
 
-Hier befindet sich das Entity-Relationship-Diagramm des Projekts.
+Here is the Entity-Relationship-Diagram of the project.
 
 # Entity Relationship Diagram (ERD)
 
@@ -30,6 +30,6 @@ erDiagram
     }
 ```
 
-## Beschreibung
-- Ein **Member** kann mehrere Bücher ausleihen (BORROW), ein **Book** kann mehrfach ausgeliehen werden.
-- Die Entität **BORROW** verbindet Bücher und Mitglieder mit Ausleih- und Rückgabedatum.
+## Description
+- A **Member** can borrow multiple books (BORROW), a **Book** can be borrowed multiple times.
+- The **BORROW** entity links books and members with borrow and return dates.

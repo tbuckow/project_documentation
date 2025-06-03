@@ -1,10 +1,10 @@
-# API-Dokumentation
+# API Documentation
 
-## Beispiel 1: Buch anlegen
+## Example 1: Create Book
 
 - **Endpoint:** `/api/books`
-- **Methode:** POST
-- **Request-Format (JSON):**
+- **Method:** POST
+- **Request Format (JSON):**
   ```json
   {
     "title": "Clean Code",
@@ -13,7 +13,7 @@
     "year": 2008
   }
   ```
-- **Response-Format (JSON):**
+- **Response Format (JSON):**
   ```json
   {
     "id": 1,
@@ -26,11 +26,11 @@
 
 ---
 
-## Beispiel 2: Mitglied registrieren
+## Example 2: Register Member
 
 - **Endpoint:** `/api/members`
-- **Methode:** POST
-- **Request-Format (JSON):**
+- **Method:** POST
+- **Request Format (JSON):**
   ```json
   {
     "name": "Max Mustermann",
@@ -38,7 +38,7 @@
     "address": "Musterstraße 1, 12345 Musterstadt"
   }
   ```
-- **Response-Format (JSON):**
+- **Response Format (JSON):**
   ```json
   {
     "id": 1,
@@ -50,11 +50,11 @@
 
 ---
 
-## Beispiel 3: Buch ausleihen
+## Example 3: Borrow Book
 
 - **Endpoint:** `/api/borrow`
-- **Methode:** POST
-- **Request-Format (JSON):**
+- **Method:** POST
+- **Request Format (JSON):**
   ```json
   {
     "bookId": 1,
@@ -62,7 +62,7 @@
     "borrowDate": "2025-06-03"
   }
   ```
-- **Response-Format (JSON):**
+- **Response Format (JSON):**
   ```json
   {
     "id": 1,

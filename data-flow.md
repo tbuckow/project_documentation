@@ -1,19 +1,19 @@
-# Datenfluss
+# Data Flow
 
-Beschreibt den Datenfluss im Projekt.
+Describes the data flow in the project.
 
-# Datenflussdiagramm
+# Data Flow Diagram
 
 ```mermaid
 flowchart TD
-    User[Benutzer]
-    UI[Web-Oberfläche]
+    User[User]
+    UI[Web UI]
     API[Controller/API]
-    Service[Service-Schicht]
-    JSON[JSON-Datei: Bücher]
-    XML[XML-Datei: Mitglieder]
-    Flat[Flat File: Ausleihen]
-    DB[SQLite Datenbank]
+    Service[Service Layer]
+    JSON[JSON File: Books]
+    XML[XML File: Members]
+    Flat[Flat File: Borrow Records]
+    DB[SQLite Database]
     Log[logs.txt]
 
     User --> UI
@@ -26,13 +26,13 @@ flowchart TD
     Service --> Log
 ```
 
-## Beschreibung
-- **Benutzer** interagiert mit der Web-Oberfläche (UI).
-- Die UI sendet Anfragen an die Controller/API.
-- Die API ruft die Service-Schicht auf.
-- Die Service-Schicht verarbeitet die Geschäftslogik und kommuniziert mit:
-  - der SQLite-Datenbank (z.B. für persistente Daten)
-  - JSON-Dateien (Bücher)
-  - XML-Dateien (Mitglieder)
-  - Flat Files (Ausleihen)
-  - Logdatei (logs.txt) für Aktionen.
+## Description
+- **User** interacts with the web UI.
+- The UI sends requests to the controllers/API.
+- The API calls the service layer.
+- The service layer processes business logic and communicates with:
+  - the SQLite database (for persistent data)
+  - JSON files (books)
+  - XML files (members)
+  - flat files (borrow records)
+  - log file (logs.txt) for actions.

@@ -1,48 +1,48 @@
 # Setup
 
-## Voraussetzungen
+## Prerequisites
 
-- .NET 8 SDK oder höher
+- .NET 8 SDK or higher
 - Git
-- Optional: Visual Studio 2022 oder Visual Studio Code
+- Optional: Visual Studio 2022 or Visual Studio Code
 
-## Schritt-für-Schritt-Anleitung
+## Step-by-Step Instructions
 
-1. **Repository klonen**
+1. **Clone the repository**
    ```powershell
    git clone <REPO-URL>
    cd projectDocumentation
    ```
-2. **Abhängigkeiten wiederherstellen**
+2. **Restore dependencies**
    ```powershell
    dotnet restore
    ```
-3. **Datenbank migrieren (falls erforderlich)**
+3. **Migrate the database (if required)**
    ```powershell
    dotnet ef database update
    ```
-4. **Projekt bauen**
+4. **Build the project**
    ```powershell
    dotnet build
    ```
-5. **Projekt starten**
+5. **Run the project**
    ```powershell
    dotnet run
    ```
-6. **Tests ausführen**
+6. **Run tests**
    ```powershell
    dotnet test
    ```
 
-## Umgebungsvariablen (Beispiel)
+## Environment Variables (Example)
 
-Falls benötigt, können folgende Umgebungsvariablen gesetzt werden (z.B. in einer `.env`-Datei oder in den Projekteinstellungen):
+If needed, set the following environment variables (e.g., in a `.env` file or project settings):
 
-- `ConnectionStrings__DefaultConnection` – Verbindungszeichenfolge für SQLite
-- `ASPNETCORE_ENVIRONMENT` – z.B. `Development` oder `Production`
+- `ConnectionStrings__DefaultConnection` – Connection string for SQLite
+- `ASPNETCORE_ENVIRONMENT` – e.g., `Development` or `Production`
 
-## Hinweise
+## Notes
 
-- Die Daten werden in JSON-, XML- und Flat Files im `Data`-Verzeichnis gespeichert.
-- Logdateien befinden sich in `Data/logs.txt`.
-- Beispiel-Daten können über ein Seed-Skript oder beim ersten Start generiert werden.
+- Data is stored in JSON, XML, and flat files in the `Data` directory.
+- Log files are located at `Data/logs.txt`.
+- Sample data can be generated via a seed script or on first run.
